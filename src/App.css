@@ -1,6 +1,8 @@
+/*  --------------- BANNER ---------------  */
+
 .banner-card {
     width: 100vw;
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
     margin-bottom: 3vh;
     position: relative;
     height: 70vh;
@@ -14,13 +16,14 @@
 
 .banner-title {
     position: absolute;
-    top: 58%;
+    top: 18%;
     left: 5%;
+    font-weight: 800;
 }
 
 .banner-text {
     position: absolute;
-    top: 70%;
+    top: 77%;
     left: 5%;
     height: 4.5rem;
     overflow: hidden;
@@ -45,4 +48,46 @@
         top: 17vh;
         left: 5vw;
     }
+}
+
+/*  --------------- MOVIES ---------------  */
+
+.movies-list {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-card {
+    height: 50vh;
+    width: 40vw;
+    margin: 1rem;
+    position: relative;
+}
+
+.movie-title {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    top: 20px;
+    text-align: center;
+}
+
+.movie-text {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: black;
+}
+
+.movie-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 35vh;
 }
