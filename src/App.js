@@ -10,9 +10,13 @@ function App() {
     <>
     <Router>
       <Navbar />
-      <Banner />
      <Switch>
-        <Route path="/" component={Movies} exact/>
+        <Route path="/" exact render= {(props) => (
+          <>
+            <Banner {...props}/>
+            <Movies {...props}/>
+          </>
+        )}/>
         <Route path="/favourites" component={Favourites} exact/>
     </Switch>
     </Router>

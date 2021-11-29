@@ -8,11 +8,11 @@ export default class Navbar extends Component {
             marginLeft: "30px",
             color: "black"
         }
-        
+
         return (
             <div style={{ display: 'flex', backgroundColor: 'hotpink', padding: '10px', alignItems: 'center' }}>
                 <Link to="/" style={myStyle}>
-                    <h1 style={myStyle}>Movies-app</h1>
+                    <h1>Movies-app</h1>
                 </Link>
                 <Link to="/favourites" style={myStyle}>
                     <h2 >Favourites</h2>

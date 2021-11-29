@@ -36,7 +36,7 @@ export default class Favourites extends Component {
                             <ul className="list-group favourite-genres"><h1>Genres</h1>
                             {
                                 temp.map(genre => (
-                                    this.state.currGenre == genre ?
+                                    this.state.currGenre === genre ?
                                     <li className="list-group-item" style={{fontWeight: "bolder", color:"white", backgroundColor:"#3d61ff"}}>{genre}</li> :
                                     <li className="list-group-item" style={{fontWeight: "bolder", color:"#3d61ff", backgroundColor:"white"}}>{genre}</li> 
 
