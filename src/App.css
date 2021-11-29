@@ -91,3 +91,13 @@
     position: absolute;
     top: 35vh;
 }
+
+/*  --------------- GENRES ---------------  */
+
+.favourite-genres {
+    padding: 2rem;
+}
+
+.favourite-table {
+    padding: 3rem;
+}
